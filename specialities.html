@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/essentialIcon.png">
+    <!-- Other css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/hc-offcanvas-nav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Essential Hospital</title>
+
+
+    <style>
+        .fa {
+          padding: 4px;
+          font-size: 19px;
+          width: 27px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 5px;
+          border-radius: 26%;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+  }
+
+  .fa-twitter {
+      background: #1DA1F2;
+      color: white;
+  }
+
+  .fa-linkedin {
+      background: #007bb5;
+      color: white;
+  }
+
+  .fa-youtube {
+      background: #FF0000;
+      color: white;
+  }
+
+  .fa-instagram {
+      background: #C13584;
+      color: white;
+  }
+
+
+</style>
+</head>
+
+<body>
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+
+    <!-- ========== Mobile-nav section start here ========== -->
+    <div class="mobile-menu">
+        <div class="container">
+            <div class="mobile-menu-wrapper">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo/Essential Hospital Logo.png" alt="Essential" height="100px" width="150px">
+                    </a>
+                </div>
+                <div class="open-menu"><i class="icofont-navigation-menu"></i></div>
+            </div>
+            <nav id="mobile-nav">
+            <ul class="home-nav">
+                <li class="home"><a href="index.html">Home</a>li>
+                </ul>
+                <ul class="short-nav">
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+                <ul class="depart-nav">
+                    <li class="depart">
+                        <a href="specialities.html">Specialities</a>
+                    </li>
+                </ul>
+                <ul class="doctor-nav">
+                    <li class="doctor">
+                        <a href="doctor.html">Doctors</a>
+                       <!--  <ul>
+                            <li><a href="doctor.html">Doctors</a></li>
+                            <li><a href="doctor-single.html">Doctor Single</a></li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </ul>
+            <ul class="short-nav">
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <ul class="short-nav">
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    <!-- ========== Mobile-nav section end here ========== -->
+
+
+    <!-- ==========Header Section Starts Here========== -->
+    <header class="header-section d-none d-lg-block">
+        <div class="header-top">
+            <div class="container">
+                <div class="row justify-content-between align-items-center px-15">
+                    <div class="header-logo">
+                        <a href="index.html" class="logo"><img src="assets/images/logo/Essential Hospital Logo.png" alt="logo" height="200px" width="200px"></a>
+                    </div>
+                    <ul class="header-contact-info d-flex align-items-center">
+                        <li class="item">
+                            <div class="item-inner">
+                                <div class="item-thumb">
+                                    <img src="assets/images/header/1.png" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <span>Number :</span>
+                                    <p><a href="tel:+91 96866 88975">+91 96866 88975</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-inner">
+                                <div class="item-thumb">
+                                    <img src="assets/images/header/2.png" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <span>Email :</span>
+                                    <p><a href="mailto:essentialhospital7@gmail.com"> essentialhospital7@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="item-inner">
+                                <div class="item-thumb">
+                                    <img src="assets/images/header/3.png" alt="">
+                                </div>
+                                <div class="item-content">
+                                    <span>Address :</span>
+                                     <p>Annapurneshwari Nagar<br> Bengaluru, Karnataka 560072</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <nav class="container">
+                <div class="primary-menu">
+                    <div class="menu-area">
+                        <div class="row justify-content-between px-15">
+                            <ul class="main-menu d-flex">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="specialities.html">Specialities</a></li>
+                            <li><a href="doctor.html">Doctors</a>
+                               <!--  <ul class="submenu">
+                                    <li class="active"><a href="doctor.html">Doctor Page</a></li>
+                                    <li><a href="doctor-single.html">Doctor Single</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ==========Header Section Ends Here========== -->
+
+
+    <!-- ==========Page Header Section Start Here========== -->
+    <section class="page-header-section post-title style-1"
+        style="background-image: url(assets/images/pageheader/specialities_header.jpg)">
+        <div class="page-header-content">
+            <div class="container">
+                <div class="page-header-content-inner">
+                  <!--   <div class="page-title">
+                        <h2>Our Department</h2>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Page Header Section Ends Here========== -->
+
+     <!-- ============||Department section start here ||================= -->
+    <section class="department-section style-2 padding-tb bg-color">
+        <div class="container">
+            <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                <h2><span>We Are The</span></h2>
+                <h2>Best Our Departments Center</h2>
+            </div>
+            <div class="section-wrapper">
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>GENERAL MEDICINE</h4>
+                        <img src="assets/images/depart/icon/01.png" alt="">
+                        <a href="#one">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="lab-item-inner">
+                        <h4>CARDIOLOGY</h4>
+                        <img src="assets/images/depart/icon/05.png" alt="">
+                        <a href="#two">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="lab-item-inner">
+                        <h4>GENERAL SURGERY</h4>
+                        <img src="assets/images/depart/icon/GeneralSurgery.png" alt="" height="60px" width="60px">
+                        <a href="#three">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="lab-item-inner">
+                        <h4>GASTROENTEROLOGY</h4>
+                        <img src="assets/images/depart/icon/gastroentro.png" alt="" height="60px" width="60px">
+                        <a href="#four">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                    <div class="lab-item-inner">
+                        <h4>ENT(Ear, Nose,Throat)</h4>
+                        <img src="assets/images/depart/icon/ent.png" alt="" height="65px" width="65px">
+                        <a href="#five">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                    <div class="lab-item-inner">
+                        <h4>NEPHROLOGY</h4>
+                        <img src="assets/images/depart/icon/nephrology.png" alt="" height="60px" width="60px">
+                        <a href="#six">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                    <div class="lab-item-inner">
+                        <h4>ORTHOPAEDICS</h4>
+                        <img src="assets/images/depart/icon/orthopaedics.png" alt="" height="60px" width="60px">
+                        <a href="#seven">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
+                    <div class="lab-item-inner">
+                        <h4>RHEUMATOLOGY</h4>
+                        <img src="assets/images/depart/icon/RHEUMATOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#eight">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
+                    <div class="lab-item-inner">
+                        <h4>NEUROLOGY</h4>
+                        <img src="assets/images/depart/icon/04.png" alt="" height="60px" width="60px">
+                        <a href="#nine">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>NEURO SURGERY</h4>
+                        <img src="assets/images/depart/icon/NEURO SURGERY.png" alt="" height="60px" width="60px">
+                        <a href="#ten">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PLASTIC SURGERY</h4>
+                        <img src="assets/images/depart/icon/PLASTIC SURGERY.png" alt="" height="60px" width="60px">
+                        <a href="#eleven">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>FACIO-MAXILLARY</h4>
+                        <img src="assets/images/depart/icon/FACIO-MAXILLARY.png" alt="" height="60px" width="60px">
+                        <a href="#tweleve">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>UROLOGY</h4>
+                        <img src="assets/images/depart/icon/UROLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#thirteen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>VASCULAR SURGERY</h4>
+                        <img src="assets/images/depart/icon/VASCULAR SURGERY.png" alt="" height="60px" width="60px">
+                        <a href="#fourteen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>GYNAECOLOGY</h4>
+                        <img src="assets/images/depart/icon/OBSTETRICS & GYNAECOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#fifteen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PAEDIATRIC</h4>
+                        <img src="assets/images/depart/icon/PAEDIATRIC.png" alt="" height="60px" width="60px">
+                        <a href="#sixteen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PAEDIATRIC SURGERY</h4>
+                        <img src="assets/images/depart/icon/PAEDIATRIC SURGERY.png" alt="" height="60px" width="60px">
+                        <a href="#seventeen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>ONCOLOGY MEDICAL</h4>
+                        <img src="assets/images/depart/icon/ONCOLOGY MEDICAL.png" alt="" height="60px" width="60px">
+                        <a href="#eighteen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>ONCOLOGY SURGICAL</h4>
+                        <img src="assets/images/depart/icon/ONCOLOGY SURGICAL.png" alt="" height="60px" width="60px">
+                        <a href="#nineteen">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>CLINICAL HAEMATOLOGY</h4>
+                        <img src="assets/images/depart/icon/CLINICAL HAEMATOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>DERMATOLOGY</h4>
+                        <img src="assets/images/depart/icon/DERMATOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-one">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>ANAESTHESIA</h4>
+                        <img src="assets/images/depart/icon/ANAESTHESIA.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-two">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PSYCHIATRY</h4>
+                        <img src="assets/images/depart/icon/PSYCHIATRY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-three">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PHYSIOTHERAPY</h4>
+                        <img src="assets/images/depart/icon/PHYSIOTHERAPY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-four">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PATHOLOGY</h4>
+                        <img src="assets/images/depart/icon/PATHOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-five">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>MICRO BIOLOGY</h4>
+                        <img src="assets/images/depart/icon/MICRO BIOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-six">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>RADIOLOGY</h4>
+                        <img src="assets/images/depart/icon/RADIOLOGY.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-seven">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+                <div class="lab-item wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                    <div class="lab-item-inner">
+                        <h4>PAIN MEDICINE</h4>
+                        <img src="assets/images/depart/icon/PAIN MEDICINE.png" alt="" height="60px" width="60px">
+                        <a href="#twenty-eight">Read More <i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============||Department section end here ||================= -->
+
+   
+    <!-- ==========Counter Section Start Here========== -->
+    <div class="counter-section style-1 padding-60">
+        <div class="container">
+            <div class="section-wrapper">
+                <div class="counter-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/01.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">500</span></h3>
+                            <p class="post-content">Patients Every Day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/02.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">400</span></h3>
+                            <p class="post-content">Qualified Doctors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/03.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">12</span></h3>
+                            <p class="post-content">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-item wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s">
+                    <div class="counter-item-inner">
+                        <div class="counter-thumb">
+                            <img src="assets/images/counter/04.png" alt="counter">
+                        </div>
+                        <div class="counter-content">
+                            <h3 class="number"><span class="counter">350</span></h3>
+                            <p class="post-content">Diagnosis Verity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ==========Counter Section Ends Here========== -->
+
+     <!-- ==========Department Section Start Here========== -->
+    <section class="department-section padding-tb style-1">
+        <div class="container">
+            <div class="department-wrapper">
+                <div class="section-header">
+                    <h2><span>We Are The </span></h2>
+                    <h2>Best Our Departments Centers</h2>
+                </div>
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-12 col-xl-12">
+                            <div class="department-bottom wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <div class="tab-content">
+                                   <div role="tabpanel" class="tab-pane fade in active" id="one">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 125px;">
+                                                    <img src="assets/images/depart/General-medicine.png" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>GENERAL MEDICINE</h3>
+                                                    <p>Experience personalized care for a range of health concerns. Our General Medicine experts provide thorough diagnoses and effective treatment plans, ensuring your well-being is in capable hands.</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="two">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 150px;">
+                                                    <img src="assets/images/depart/cardiology.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>CARDIOLOGY</h3>
+                                                    <p>Elevate heart health with our Cardiology specialists. From preventive care to advanced interventions, our experts focus on your heart's well-being, ensuring a healthier and more active life</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="three">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 170px;">
+                                                    <img src="assets/images/depart/GENERAL SURGERY.jpg" alt="depart" >
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>GENERAL SURGERY</h3>
+                                                    <p>From routine to complex surgeries, our skilled surgeons specialize in laparoscopic techniques for minimal invasiveness and faster recovery, prioritizing your comfort and health.</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="four">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 53px;">
+                                                    <img src="assets/images/depart/GASTROENTEROLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>GASTROENTEROLOGY</h3>
+                                                    <p>Discover comprehensive care for your digestive system at our specialized gastroenterology clinic. Our experienced team is committed to providing cutting-edge diagnostics and tailored solutions, ensuring your journey to optimal gut health. Trust us to navigate the complexities of gastrointestinal well-being with expertise and compassion</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="five">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 110px;">
+                                                    <img src="assets/images/depart/ENT.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content" >
+                                                    <h3>ENT(Ear, Nose,Throat)</h3>
+                                                    <p>Our Ear, Nose, and Throat specialists provide expert care for a spectrum of ENT issues. From hearing concerns to sinus conditions, our comprehensive treatments enhance your ENT health
+                                                    </p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="six">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 97px;">
+                                                    <img src="assets/images/depart/NEPHROLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>NEPHROLOGY</h3>
+                                                    <p>At our hospital, our nephrology experts are dedicated to safeguarding your kidney health. From advanced diagnostics to personalized treatment plans, our skilled nephrologists strive to ensure your well-being. Trust us for comprehensive care and support throughout your journey to kidney health</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="seven">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 140px;">
+                                                    <img src="assets/images/depart/ORTHOPAEDICS.jpeg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>ORTHOPAEDICS</h3>
+                                                    <p>Find relief from musculoskeletal issues with our Orthopaedic specialists. Personalized treatment plans, including surgical and non-surgical approaches, ensure optimal recovery and improved mobility.</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="eight">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 150px;">
+                                                    <img src="assets/images/depart/RHEUMATOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>RHEUMATOLOGY</h3>
+                                                    <p>Rediscover joint health with our Rheumatology experts. Tailored treatment plans for autoimmune and rheumatic disorders promote mobility and improve the quality of life</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="nine">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 105px;">
+                                                    <img src="assets/images/depart/Neurology.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>NEUROLOGY</h3>
+                                                    <p>Navigate neurological concerns with our Neurology specialists. From routine evaluations to advanced treatments, our experts prioritize brain and nervous system health, ensuring optimal functioning</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="ten">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 96px;">
+                                                    <img src="assets/images/depart/NEURO SURGERY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>NEURO SURGERY</h3>
+                                                    <p>Experience world-class neurosurgery at our hospital, where our skilled neurosurgeons utilize cutting-edge techniques to address complex neurological conditions. From brain tumors to spinal disorders, our team is committed to delivering precise, compassionate care to enhance your neurological well-being. Trust us for advanced treatments and comprehensive support on your path to recovery</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="eleven">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 132px;">
+                                                    <img src="assets/images/depart/PLASTIC SURGERY.webp" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>PLASTIC SURGERY</h3>
+                                                    <p>Transform with confidence under the expertise of our Plastic and Cosmetic Surgery specialists. Personalized procedures enhance both form and function, promoting self-assurance and well-being
+                                                    </p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="tweleve">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 120px;">
+                                                    <img src="assets/images/depart/FACIO-MAXILLARY.jpeg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>FACIO-MAXILLARY</h3>
+                                                    <p>Discover excellence in facio-maxillary care at our hospital. Our specialized team of surgeons is dedicated to providing expert solutions for facial and jaw-related conditions. From corrective surgeries to aesthetic enhancements, trust us for personalized care and transformative outcomes. Your journey to optimal facial health begins here</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="thirteen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 180px;">
+                                                    <img src="assets/images/depart/UROLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>UROLOGY</h3>
+                                                    <p>Prioritize urological health with our Urology and Andrology specialists. Expert care for a range of conditions ensures optimal wellness and addresses issues affecting the urinary and reproductive systems</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="fourteen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 110px;">
+                                                    <img src="assets/images/depart/VASCULAR SURGERY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>VASCULAR SURGERY</h3>
+                                                    <p>Explore advanced vascular care at our hospital, where our skilled vascular surgeons are committed to treating a range of circulatory system disorders. From minimally invasive procedures to complex surgeries, our team ensures comprehensive solutions for optimal vascular health. Trust us for expertise, innovation, and personalized care on your path to vascular well-being</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="fifteen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 100px;">
+                                                    <img src="assets/images/depart/OBSTETRICS & GYNAECOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>OBSTETRICS & GYNAECOLOGY</h3>
+                                                    <p>Tailored care for women's health needs. Our Obstetrics and Gynaecology specialists provide comprehensive services, from prenatal care to advanced gynecological treatments, ensuring your health at every stage.</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="sixteen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 113px;">
+                                                    <img src="assets/images/depart/NEONATOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>NEONATOLOGY/PAEDIATRIC</h3>
+                                                    <p>Nurturing the health of our youngest patients, our Pediatric and Neonatology experts focus on comprehensive child care. From routine check-ups to specialized treatments, your child's well-being is our priority.</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="seventeen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 124px;">
+                                                    <img src="assets/images/depart/PAEDIATRIC SURGERY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>PAEDIATRIC SURGERY</h3>
+                                                    <p>Exceptional pediatric surgery awaits at our hospital, where our dedicated team of surgeons specializes in the unique needs of young patients. From minor procedures to complex surgeries, we prioritize the health and well-being of your child. Trust us for compassionate care, advanced techniques, and a commitment to ensuring a brighter, healthier future for your little ones</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="eighteen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 130px;">
+                                                    <img src="assets/images/depart/ONCOLOGY MEDICAL.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>ONCOLOGY MEDICAL</h3>
+                                                    <p>Comprehensive cancer care by our Medical and Surgical Oncology specialists. Personalized treatment plans encompass advanced therapies, ensuring the best possible outcomes for cancer patients</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="nineteen">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 138px;">
+                                                    <img src="assets/images/depart/ONCOLOGY SURGICAL.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>ONCOLOGY SURGICAL</h3>
+                                                    <p>Comprehensive cancer care by our Medical and Surgical Oncology specialists. Personalized treatment plans encompass advanced therapies, ensuring the best possible outcomes for cancer patients</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 125px;">
+                                                    <img src="assets/images/depart/CLINICAL HAEMATOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>CLINICAL HAEMATOLOGY</h3>
+                                                    <p>Experience leading-edge clinical hematology care at our hospital. Our expert team of hematologists is dedicated to diagnosing and treating blood disorders with precision and compassion. From advanced diagnostics to personalized treatment plans, trust us for comprehensive care tailored to your individual needs. Your journey to hematological well-being starts here</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-one">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 157px;">
+                                                    <img src="assets/images/depart/DERMATOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>DERMATOLOGY</h3>
+                                                    <p>Rediscover healthy skin with our Dermatology experts. From common skin conditions to advanced cosmetic procedures, our specialists offer tailored treatments for a radiant and confident you</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-two">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 101px;">
+                                                    <img src="assets/images/depart/ANAESTHESIA.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>ANAESTHESIA</h3>
+                                                    <p>Discover unparalleled anesthesia care at our hospital. Our skilled anesthesiologists prioritize your comfort and safety, providing expertise in pain management and ensuring a seamless experience throughout surgical procedures. Trust us for personalized, compassionate anesthesia services, ensuring a worry-free and comfortable journey for every patient</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-three">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 120px;">
+                                                    <img src="assets/images/depart/PSYCHIATRY.webp" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>PSYCHIATRY</h3>
+                                                    <p>Embrace mental wellness with our comprehensive psychiatry services at the hospital. Our team of experienced psychiatrists is committed to providing compassionate care for a spectrum of mental health concerns. From personalized assessments to evidence-based treatments, trust us to support your journey towards emotional well-being and a healthier mind</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-four">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 130px;">
+                                                    <img src="assets/images/depart/PHYSIOTHERAPY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>PHYSIOTHERAPY</h3>
+                                                    <p>Experience transformative physiotherapy at our hospital. Our dedicated team of skilled physiotherapists is committed to restoring mobility, relieving pain, and enhancing overall well-being. From tailored rehabilitation plans to cutting-edge techniques, trust us for personalized care that empowers you on the path to optimal physical health and functionality</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-five">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 73px;">
+                                                    <img src="assets/images/depart/PATHOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>PATHOLOGY</h3>
+                                                    <p>Unlock the power of accurate diagnosis with our pathology services. Our experienced team of pathologists utilizes state-of-the-art technology to analyze and interpret a wide range of medical tests. Trust us for precise results, timely reports, and a commitment to advancing your healthcare through comprehensive pathology expertise</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-six">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 152px;">
+                                                    <img src="assets/images/depart/MICRO BIOLOGY.avif" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>MICRO BIOLOGY</h3>
+                                                    <p>Delve into the world of microbiology at our hospital, where our expert team of microbiologists employs advanced techniques to analyze and identify microorganisms. From diagnostic testing to research, trust us for precise results and a commitment to understanding and managing infections. Your health journey begins with accurate insights from our microbiology experts</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-seven">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 160px;">
+                                                    <img src="assets/images/depart/RADIOLOGY.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>RADIOLOGY</h3>
+                                                    <p>Experience clarity in healthcare with our radiology services. Our cutting-edge imaging technologies, coupled with the expertise of our radiologists, ensure accurate diagnostics and precise insights. Trust us for comprehensive radiology solutions, advancing your health journey through state-of-the-art imaging and a commitment to excellence</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade in active" id="twenty-eight">
+                                        <div class="row flex-row-reverse align-items-center">
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-thumb" style="padding-top: 140px;">
+                                                    <img src="assets/images/depart/PAIN MEDICINE.jpg" alt="depart">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <div class="post-content">
+                                                    <h3>PAIN MEDICINE</h3>
+                                                    <p>Discover relief and renewed well-being with our specialized pain medicine services. Our multidisciplinary team of pain management experts is dedicated to alleviating discomfort and improving your quality of life. From personalized treatment plans to advanced interventions, trust us for compassionate care tailored to address your unique pain challenges</p>
+                                                    <ul>
+                                                        <li>Qualified Doctors</li>
+                                                        <li>Feel like Home Services</li>
+                                                        <li>24×7 Emergency Services</li>
+                                                        <li>Outdoor Checkup</li>
+                                                        <li>General Medical</li>
+                                                        <li>Easy and Affordable Billing</li>
+                                                    </ul>
+                                                    <a href="#" class="lab-btn"><span>Appointment Now <i
+                                                                class="icofont-rounded-double-right"></i></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========Department Section Ends Here========== -->
+
+    <!-- ==========Footer Section Ends Here========== -->
+    <footer class="footer-section style-1 bg-color">
+        <div class="container">
+            <div class="section-wrapper">
+                <div class="footer-top padding-tb parallax-window4">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 wow fadeInUp order-lg-2" data-wow-duration="1s"
+                            data-wow-delay=".2s">
+                            <div class="footer-about">
+                                <div class="top">
+                                    <a href="index.html" class="footer-logo">
+                                        <a href="index.html" class="logo"><img src="assets/images/logo/Essential Hospital Logo.png" alt="logo" height="200px" width="150px"></a>
+                                    </a>
+                                    <p>Your trusted healthcare partner. Comprehensive specialties, expert doctors, and state-of-the-art facilities for your well-being</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 wow fadeInUp order-lg-1" data-wow-duration="1s"
+                            data-wow-delay=".1s">
+                            <div class="contact-info">
+                                <h3>Contact Info</h3>
+                                <ul>
+                                    <li><i class="icofont-home"></i>Aladamara Papareddy Palya, Old Outer Ring Rd, ITI HBCS Layout, Papareddipalya, Annapurneshwari Nagar, Bengaluru, Karnataka 560072
+                                    </li>
+                                    <li><i class="icofont-phone"></i> <a href="tel:+91 96866 88975">+91 96866 88975</a></li>
+                                    <li><i class="icofont-envelope"></i> <a href="mailto:essentialhospital7@gmail.com"> essentialhospital7@gmail.com</a></li>
+                                    <!-- <li><i class="icofont-globe"></i> <a href="#"> info@mukti.com</a></li> -->
+                                    <li>
+                                    <h6>Social Media Links</h6>
+
+                                    <!-- Add font awesome icons -->
+                                    <a href="https://www.facebook.com/profile.php?id=61554229455182" style="color: white;" class="fa fa-facebook" target="_blank"></a>
+                                    <a href="https://www.instagram.com/essential_hospital/" style="color: white;" class="fa fa-instagram" target="_blank"></a>
+                                    <a href="https://twitter.com/H90571Essential" style="color: white;" class="fa fa-twitter" target="_blank"></a>
+                                    <a href="https://www.linkedin.com/company/essential-hospital/?viewAsMember=true" style="color: white;" class="fa fa-linkedin" target="_blank"></a>
+                                    <a href="https://www.youtube.com/channel/UCdfvKO75oWFyM4uqrPzgG6Q" style="color: white;" class="fa fa-youtube" target="_blank"></a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-3 wow fadeInUp order-lg-3" data-wow-duration="1s"
+                            data-wow-delay=".4s">
+                            <div class="time-info">
+                        <h3>opening hours</h3>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Sunday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Monday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Tuesday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Wednesday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Thursday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Friday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                        <div class="dep-item">
+                            <div class="dep-item-inner d-flex justify-content-between">
+                                <div class="day-name">Saturday</div>
+                                <div class="day-time">12:00 am-12:00 pm</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="footer-bottom">
+                    <div class="copyright text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <span>Copyright &copy; 2024 <a href="index.html">Essenital Hospital</a> | All Rights Reserved</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ==========Footer Section Ends Here========== -->
+
+    <!-- scrollToTop start here -->
+    <a href="#" class="scrollToTop"><i class="icofont-rounded-up"></i></a>
+    <!-- scrollToTop ending here -->
+
+
+
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/circularProgressBar.min.js"></script>
+    <script src="assets/js/hc-offcanvas-nav.js"></script>
+    <script src="assets/js/functions.js"></script>
+</body>
+
+</html>

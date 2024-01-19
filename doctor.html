@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/essentialIcon.png">
+    <!-- Other css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/hc-offcanvas-nav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Essential Hospital</title>
+
+
+    <style>
+        .fa {
+          padding: 4px;
+          font-size: 19px;
+          width: 27px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 5px;
+          border-radius: 26%;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+  }
+
+  .fa-twitter {
+      background: #1DA1F2;
+      color: white;
+  }
+
+  .fa-linkedin {
+      background: #007bb5;
+      color: white;
+  }
+
+  .fa-youtube {
+      background: #FF0000;
+      color: white;
+  }
+
+  .fa-instagram {
+      background: #C13584;
+      color: white;
+  }
+
+
+</style>
+</head>
+
+<body>
+    <!-- preloader start here -->
+    <div class="preloader">
+      <div class="preloader-inner">
+       <div class="preloader-icon">
+        <span></span>
+        <span></span>
+    </div>
+</div>
+</div>
+<!-- preloader ending here -->
+
+
+<!-- ========== Mobile-nav section start here ========== -->
+<div class="mobile-menu">
+    <div class="container">
+        <div class="mobile-menu-wrapper">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo/Essential Hospital Logo.png" alt="Essential" height="100px" width="150px">
+                </a>
+            </div>
+            <div class="open-menu"><i class="icofont-navigation-menu"></i></div>
+        </div>
+        <nav id="mobile-nav">
+            <ul class="home-nav">
+                <li class="home"><a href="index.html">Home</a>li>
+                </ul>
+                <ul class="short-nav">
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+                <ul class="depart-nav">
+                    <li class="depart">
+                        <a href="specialities.html">Specialities</a>
+                    </li>
+                </ul>
+                <ul class="doctor-nav">
+                    <li class="doctor">
+                        <a href="doctor.html">Doctors</a>
+                        <!-- <ul>
+                            <li><a href="doctor.html">Doctors</a></li>
+                            <li><a href="doctor-single.html">Doctor Single</a></li>
+                        </ul> -->
+                    </li>
+                </ul>
+            </ul>
+            <ul class="short-nav">
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+            <ul class="short-nav">
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- ========== Mobile-nav section end here ========== -->
+
+
+<!-- ==========Header Section Starts Here========== -->
+<header class="header-section d-none d-lg-block">
+    <div class="header-top">
+        <div class="container">
+            <div class="row justify-content-between align-items-center px-15">
+                <div class="header-logo">
+                    <a href="index.html" class="logo"><img src="assets/images/logo/Essential Hospital Logo.png" alt="logo" height="200px" width="200px"></a>
+                </div>
+                <ul class="header-contact-info d-flex align-items-center">
+                    <li class="item">
+                        <div class="item-inner">
+                            <div class="item-thumb">
+                                <img src="assets/images/header/1.png" alt="">
+                            </div>
+                            <div class="item-content">
+                                <span>Number :</span>
+                                <p><a href="tel:+91 96866 88975">+91 96866 88975</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="item-inner">
+                            <div class="item-thumb">
+                                <img src="assets/images/header/2.png" alt="">
+                            </div>
+                            <div class="item-content">
+                                <span>Email :</span>
+                                <p><a href="mailto:essentialhospital7@gmail.com"> essentialhospital7@gmail.com</a></p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item">
+                        <div class="item-inner">
+                            <div class="item-thumb">
+                                <img src="assets/images/header/3.png" alt="">
+                            </div>
+                            <div class="item-content">
+                                <span>Address :</span>
+                                <p>Annapurneshwari Nagar<br> Bengaluru, Karnataka 560072</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-bottom">
+        <nav class="container">
+            <div class="primary-menu">
+                <div class="menu-area">
+                    <div class="row justify-content-between px-15">
+                        <ul class="main-menu d-flex">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="specialities.html">Specialities</a></li>
+                            <li class="active"><a href="doctor.html">Doctors</a>
+                                <!-- <ul class="submenu">
+                                    <li class="active"><a href="doctor.html">Doctor Page</a></li>
+                                    <li><a href="doctor-single.html">Doctor Single</a></li>
+                                </ul> -->
+                            </li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- ==========Header Section Ends Here========== -->
+
+
+<!-- ==========Page Header Section Start Here========== -->
+<section class="page-header-section service-title style-1"
+style="background-image: url(assets/images/pageheader/doctors.jpg)">
+<div class="page-header-content">
+    <div class="container">
+        <div class="page-header-content-inner">
+        </div>
+    </div>
+</div>
+</section>
+<!-- ==========Page Header Section Ends Here========== -->
+
+
+<!-- ==========Doctor Section Start Here========== -->
+<section class="doctor-section style-2 padding-tb">
+    <div class="container">
+        <div class="section-header wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+            <h2><span>Meet Our</span></h2>
+            <h2>Mukti Professional Doctors</h2>
+        </div>
+        <div class="section-wrapper">
+            <div class="row justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Devendra Nayak</a></h4>
+                                    <p class="digi">General Medicine</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Sudhakar M R</a></h4>
+                                    <p class="digi">General Medicine</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Madhusudan H N</a></h4>
+                                    <p class="digi">General Medicine</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Sowmya</a></h4>
+                                    <p class="digi">Cardiology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Somashekar</a></h4>
+                                    <p class="digi">Cardiology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Santhosh M P</a></h4>
+                                    <p class="digi">General Surgery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Anil_Kumar.jpg" alt="doctor" style="width: 280px; height: 280px;">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Anil Kumar B U</a></h4>
+                                    <p class="digi">General Surgery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Monohar S</a></h4>
+                                    <p class="digi">General Surgery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Narayanaprasad</a></h4>
+                                    <p class="digi">General Surgery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Sagar</a></h4>
+                                    <p class="digi">Gastroenterology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr. Rakesh J P</a></h4>
+                                    <p class="digi">Gastroenterology</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Susheen Dutt</a></h4>
+                                    <p class="digi">ENT(Ear, Nose,Throat)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Manasa</a></h4>
+                                    <p class="digi">ENT(Ear, Nose,Throat)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Niharika</a></h4>
+                                    <p class="digi">ENT(Ear, Nose,Throat)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Manjunath S</a></h4>
+                                    <p class="digi">NEPHROLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr B Sukesh Shetty</a></h4>
+                                    <p class="digi">ORTHOPAEDICS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Harshini</a></h4>
+                                    <p class="digi">RHEUMATOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Madhusudan B K</a></h4>
+                                    <p class="digi">NEUROLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Kranthi Mohan</a></h4>
+                                    <p class="digi">NEUROLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Lakshman</a></h4>
+                                    <p class="digi">NEURO SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Karthik</a></h4>
+                                    <p class="digi">NEURO SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Sudheer_B.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Sudheer B M</a></h4>
+                                    <p class="digi">PLASTIC SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Sushanth</a></h4>
+                                    <p class="digi">PLASTIC SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Manojith_S.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Manojith S</h4>
+                                    <p class="digi">LACROSCOPIC SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Mamatha MDS in Oral Maxillary Surgery</a></h4>
+                                    <p class="digi">FACIO-MAXILLARY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Sreeharsha M</a></h4>
+                                    <p class="digi">UROLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Prasad_C.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Prasad C</a></h4>
+                                    <p class="digi">UROLOGY</p>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Sharath.jpeg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Sharath</a></h4>
+                                    <p class="digi">UROLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Ravikumar B L</a></h4>
+                                    <p class="digi">VASCULAR SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Sunitha Sharma</h4>
+                                    <p class="digi">OBSTETRICS & GYNAECOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Vishma Shetty</h4>
+                                    <p class="digi">OBSTETRICS & GYNAECOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Aishwarya_V.png" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Aishwarya V M</h4>
+                                    <p class="digi">OBSTETRICS & GYNAECOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Manasa_S.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Manasa </h4>
+                                    <p class="digi">OBSTETRICS & GYNAECOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/Lokesh_R.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Lokesh R</h4>
+                                    <p class="digi">NEONATOLOGY/PAEDIATRIC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Sowmya A</h4>
+                                    <p class="digi">NEONATOLOGY/PAEDIATRIC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Jagadish G</h4>
+                                    <p class="digi">NEONATOLOGY/PAEDIATRIC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Kiranjeeth</h4>
+                                    <p class="digi">NEONATOLOGY/PAEDIATRIC</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Vinay Jadhav MS, MCh(Ped Surgery)</h4>
+                                    <p class="digi">PAEDIATRIC SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Keshav Murthy MS,MCh(Ped Surgery)</h4>
+                                    <p class="digi">PAEDIATRIC SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Ravikiran</a></h4>
+                                    <p class="digi">PAEDIATRIC SURGERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Madhava K R MD,DNB, MRCP,FRCR</h4>
+                                    <p class="digi">ONCOLOGY MEDICAL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Shwetha</h4>
+                                    <p class="digi">ONCOLOGY MEDICAL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#">Dr Pandu Dasappa  MBBS MS MCh FIAGS</a></h4>
+                                    <p class="digi">ONCOLOGY SURGICAL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Prakash B V MBBS MS ,MCh(onco) DNB</h4>
+                                    <p class="digi">ONCOLOGY SURGICAL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Mahesh</h4>
+                                    <p class="digi">CLINICAL HAEMATOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Sapna Bhaskar MBBS MD (DVL)</h4>
+                                    <p class="digi">DERMATOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Vijaykumar P K</h4>
+                                    <p class="digi">ANAESTHESIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Mithun</h4>
+                                    <p class="digi">ANAESTHESIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Manjunath Swaroop</h4>
+                                    <p class="digi">ANAESTHESIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Henjarappa</h4>
+                                    <p class="digi">ANAESTHESIA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Vinod Kumar MBBS, MD(Psy)</h4>
+                                    <p class="digi">PSYCHIATRY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Veeresh K MBBS MRCPsych</h4>
+                                    <p class="digi">PSYCHIATRY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Naveen K SMPT,PGCSM,CMP,CMT, MIAP </h4>
+                                    <p class="digi">PHYSIOTHERAPY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Girish V MPT(Neuro)</h4>
+                                    <p class="digi">PHYSIOTHERAPY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Mr. Chandu L BRT</h4>
+                                    <p class="digi">PHYSIOTHERAPY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Varamahalakshmi MBBS MD</h4>
+                                    <p class="digi">PATHOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Mr Rudrappa P T  Msc</h4>
+                                    <p class="digi">MICRO BIOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                    <div class="doctor-item style-2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="doctor-inner">
+                            <div class="doctor-thumb">
+                                <img src="assets/images/team/07.jpg" alt="doctor">
+                            </div>
+                            <div class="doctor-content">
+                                <div class="doctor-name">
+                                    <h4><a href="#"></a>Dr Karthik</h4>
+                                    <p class="digi">RADIOLOGY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ==========Doctor Section Ends Here========== -->
+
+
+<!-- ==========Footer Section start Here========== -->
+<footer class="footer-section style-1 bg-color">
+    <div class="container">
+        <div class="section-wrapper">
+            <div class="footer-top padding-tb parallax-window4">
+                <div class="row">
+                    <div class="col-12 col-lg-6 wow fadeInUp order-lg-2" data-wow-duration="1s"
+                    data-wow-delay=".2s">
+                    <div class="footer-about">
+                        <div class="top">
+                            <a href="index.html" class="footer-logo">
+                                <a href="index.html" class="logo"><img src="assets/images/logo/Essential Hospital Logo.png" alt="logo" height="200px" width="150px"></a>
+                            </a>
+                            <p>Your trusted healthcare partner. Comprehensive specialties, expert doctors, and state-of-the-art facilities for your well-being</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 wow fadeInUp order-lg-1" data-wow-duration="1s"
+                data-wow-delay=".1s">
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="icofont-home"></i>Aladamara Papareddy Palya, Old Outer Ring Rd, ITI HBCS Layout, Papareddipalya, Annapurneshwari Nagar, Bengaluru, Karnataka 560072
+                        </li>
+                        <li><i class="icofont-phone"></i> <a href="tel:+91 96866 88975">+91 96866 88975</a></li>
+                        <li><i class="icofont-envelope"></i> <a href="mailto:essentialhospital7@gmail.com"> essentialhospital7@gmail.com</a></li>
+                        <!-- <li><i class="icofont-globe"></i> <a href="#"> info@mukti.com</a></li> -->
+                        <li>
+                            <h6>Social Media Links</h6>
+
+                            <!-- Add font awesome icons -->
+                            <a href="https://www.facebook.com/profile.php?id=61554229455182" style="color: white;" class="fa fa-facebook" target="_blank"></a>
+                            <a href="https://www.instagram.com/essential_hospital/" style="color: white;" class="fa fa-instagram" target="_blank"></a>
+                            <a href="https://twitter.com/H90571Essential" style="color: white;" class="fa fa-twitter" target="_blank"></a>
+                            <a href="https://www.linkedin.com/company/essential-hospital/?viewAsMember=true" style="color: white;" class="fa fa-linkedin" target="_blank"></a>
+                            <a href="https://www.youtube.com/channel/UCdfvKO75oWFyM4uqrPzgG6Q" style="color: white;" class="fa fa-youtube" target="_blank"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 wow fadeInUp order-lg-3" data-wow-duration="1s"
+            data-wow-delay=".4s">
+            <div class="time-info">
+                <h3>opening hours</h3>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Sunday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Monday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Tuesday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Wednesday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Thursday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Friday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+                <div class="dep-item">
+                    <div class="dep-item-inner d-flex justify-content-between">
+                        <div class="day-name">Saturday</div>
+                        <div class="day-time">12:00 am-12:00 pm</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+ <div class="copyright text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+    <span>Copyright &copy; 2024 <a href="index.html">Essenital Hospital</a> | All Rights Reserved</span>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- ==========Footer Section Ends Here========== -->
+
+<!-- scrollToTop start here -->
+<a href="#" class="scrollToTop"><i class="icofont-rounded-up"></i></a>
+<!-- scrollToTop ending here -->
+
+
+
+
+
+<!-- All Scripts -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/circularProgressBar.min.js"></script>
+<script src="assets/js/hc-offcanvas-nav.js"></script>
+<script src="assets/js/functions.js"></script>
+</body>
+
+</html>
